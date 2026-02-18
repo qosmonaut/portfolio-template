@@ -1,5 +1,6 @@
 import React from "react";
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Socials = (props) => {
     return (
@@ -23,9 +24,9 @@ const Socials = (props) => {
                 <a href={props.data.linkedin} target="_blank" rel="noopener noreferrer" className='transition-all hover:-translate-y-1'>
                     <Image src="/logos/linkedin.svg" alt="LinkedIn Logo" width={20} height={20} className='object-contain object-top' />
                 </a>
-                <a href={props.data.cv} target="_blank" rel="noopener noreferrer" className='transition-all hover:-translate-y-1'>
+                <Link href={props.data.cv} target="_blank" rel="noopener noreferrer" className='transition-all hover:-translate-y-1'>
                     <Image src="/logos/cv.svg" alt="Download CV" width={20} height={20} className='object-contain object-top' />
-                </a>
+                </Link>
             </div>
         </div>
     )

@@ -18,7 +18,7 @@ export default function Home() {
 
   useEffect(() => {
     // Load translation file based on current language
-    fetch(`/translations/${currentLang}.json`)
+    fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/translations/${currentLang}.json`)
       .then(res => res.json())
       .then(jsonData => setData(jsonData))
       .catch(err => console.error('Error loading translations:', err));

@@ -1,11 +1,12 @@
 import React from "react";
+import Image from 'next/image';
 import { useScrollFadeIn } from '@/hooks/useScrollFadeIn';
 
 function ExperienceItem(props) {
     const [ref, isVisible] = useScrollFadeIn();
     
     const logoImage = props.logo && (
-        <img src={props.logo} alt={props.company} className='mb-4 w-25 object-contain transition-all duration-300 group-hover:scale-110 group-hover:brightness-110' />
+        <Image src={props.logo} alt={props.company} width={100} height={100} className='mb-4 w-25 object-contain transition-all duration-300 group-hover:scale-110 group-hover:brightness-110' />
     );
     
     return (

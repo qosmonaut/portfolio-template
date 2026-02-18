@@ -37,7 +37,8 @@ function ProjectItem(props) {
             : { href: props.href, target: "_blank", rel: "noopener noreferrer" };
     
     // Prepare slides for lightbox
-    const slides = isImageArray ? props.href.map(src => ({ src })) : [];
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+    const slides = isImageArray ? props.href.map(src => ({ src: `${basePath}${src}` })) : [];
     
     return (
         <>
