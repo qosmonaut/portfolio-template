@@ -1,0 +1,136 @@
+{
+    "general": {
+        "name": "Jane Doe",
+        "headline": "Senior Web Developer",
+        "image": "/profile.webp",
+        "alt": "Profile picture",
+        "about": [
+            "Full-stack Web Developer with 7+ years of experience building scalable, responsive, and user-focused web applications. Expert in modern JavaScript frameworks, API integration, and performance optimization.",
+            "Proven ability to collaborate with cross-functional teams to deliver high-quality digital products. Skilled in JavaScript (ES6+), TypeScript, React, Next.js, Node.js, Python, PostgreSQL, MongoDB, Docker, AWS, and Firebase."
+        ],
+        "socials": {
+            "email": "jane.doe@example.com",
+            "cv": "/cv/jane-doe.pdf",
+            "linkedin": "https://linkedin.com/",
+            "github": "https://github.com/",
+            "booking": {
+                "text": "Book a call",
+                "link": "https://calendly.com/"
+            }
+        }
+    },
+    "navigation": {
+        "about": "About",
+        "experiences": "Experiences",
+        "education": "Education",
+        "volunteering": "Volunteering",
+        "projects": "Projects",
+        "imprint": "Imprint"
+    },
+    "experiences": [
+        {
+            "title": "Senior Web Developer",
+            "company": "BrightWave Tech",
+            "href": "",
+            "logo": "",
+            "startDate": "01/2021",
+            "endDate": "",
+            "description": "Architected and developed scalable React-based web applications serving 100K+ users. Improved site performance by 40% through code optimization and lazy loading strategies. Led migration to cloud-based infrastructure (AWS), reducing operational costs by 25%.",
+            "skills": [
+                "React",
+                "Next.js",
+                "TypeScript",
+                "AWS",
+                "Node.js",
+                "PostgreSQL",
+                "CI/CD",
+                "Performance Optimization"
+            ]
+        },
+        {
+            "title": "Web Developer",
+            "company": "UrbanPulse Digital",
+            "href": "",
+            "logo": "",
+            "startDate": "01/2017",
+            "endDate": "12/2020",
+            "description": "Built responsive client web applications using modern JavaScript frameworks. Collaborated with cross-functional teams to deliver high-quality digital products on time and within scope.",
+            "skills": [
+                "JavaScript",
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Docker",
+                "Firebase",
+                "CSS3"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "subject": "Computer Science",
+            "degree": "BSc",
+            "university": "University of California, Los Angeles",
+            "href": "",
+            "logo": "",
+            "startDate": "09/2014",
+            "endDate": "06/2018",
+            "description": [
+                "Focus on software engineering and web technologies.",
+                "• Relevant coursework: Data Structures, Algorithms, Database Systems, Web Development, Operating Systems"
+            ]
+        }
+    ],
+    "volunteering": [
+        {
+            "position": "Volunteer Coordinator",
+            "event": "Boston Marathon 2025",
+            "organisation": "Boston Athletic Association",
+            "logo": "",
+            "href": "https://www.baa.org/races/boston-marathon/",
+            "startDate": "11/2024",
+            "endDate": "05/2025",
+            "description": "Coordinated a team of 50+ volunteers for the Boston Marathon, managing logistics, scheduling, and communication to ensure smooth event operations. Successfully executed volunteer training sessions and provided on-site support during the event."
+        },
+        {
+            "position": "Web Development Mentor",
+            "event": "Code for Good Hackathon 2024",
+            "organisation": "Tech for Social Good",
+            "logo": "",
+            "href": "https://www.codeforgood.io/",
+            "startDate": "03/2024",
+            "endDate": "03/2024",
+            "description": "Mentored a team of aspiring developers during the Code for Good Hackathon, providing guidance on web development best practices, project architecture, and technical problem-solving. Helped the team successfully develop and deploy a web application addressing a social issue."
+        }
+    ],
+    "projects": [
+        {
+            "name": "React Performance Toolkit",
+            "framework": "React",
+            "description": "Open-source collection of utilities and patterns for optimizing React application performance, including lazy loading helpers and bundle analysis tools.",
+            "href": "https://github.com/"
+        },
+        {
+            "name": "AWS Migration Playbook",
+            "framework": "AWS",
+            "description": "Documentation and infrastructure-as-code templates used to guide cloud migration projects, reducing operational costs through automated scaling and resource management.",
+            "href": "https://github.com/"
+        },
+        {
+        "name": "Marathon Training App",
+        "framework": "React Native",
+        "description": "A mobile application to track and plan marathon training schedules, providing personalized workout plans and progress tracking.",
+        "href": "https://github.com/"
+        },
+        {
+        "name": "Tinyhouse",
+        "framework": "woodworking",
+        "description": "Designed and built a tinyhouse",
+        "href": [
+            "/projects/tinyhouse-1.webp",
+            "/projects/tinyhouse-2.webp"
+        ]
+        }
+    ]
+}
